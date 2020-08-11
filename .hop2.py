@@ -127,12 +127,12 @@ def menu():
 	print "|[✓] ID  : "+id
 	print (47*"-")
 	print "[1] Start Cloning."
-	print "[2] Clone With Pass Choice."
-	print "[3] Grabbing Tools."
-	print "[4] Auto Del Tools."
-	print "[5] Update HOP Tool."
-	print "[6] Follow Me On Facebook."
-	print "[7] Logout"
+	\x1b[1;91mprint "[2] Clone With Pass Choice."
+	\x1b[1;92mprint "[3] Grabbing Tools."
+	\x1b[1;93mprint "[4] Auto Del Tools."
+	\x1b[1;94mprint "[5] Update HOP Tool."
+	\x1b[1;91mprint "[6] Follow Me On Facebook."
+	\x1b[1;99mprint "[7] Logout"
 	
 	print ('                  ')
 	men()
